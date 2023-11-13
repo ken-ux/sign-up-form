@@ -13,7 +13,7 @@ body {
 }
 
 .container .sidebar {
-  flex: 1;
+  flex: 2;
   background-image: url("./images/plant.jpeg");
   height: 100vh;
   background-size: cover;
@@ -22,7 +22,7 @@ body {
 }
 
 .container .sign-up {
-  flex: 2;
+  flex: 3;
 }
 
 .logo-container {
@@ -53,6 +53,12 @@ body {
 
 .sidebar a {
     color: white;
+}
+
+.hero-text {
+    font-size: 32px;
+    padding: 0 3rem;
+    padding-top: 6rem;
 }
 
 .container > div {
