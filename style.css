@@ -64,13 +64,14 @@ p {
 }
 
 .sign-up {
-  background-color: lightgrey;
+  background-color: #f9fafb;
 }
 
 .hero-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0 3rem;
   padding-top: 6rem;
+  width: 75%;
 }
 
 .hero-text p:last-child {
@@ -80,6 +81,7 @@ p {
 form > div {
   background-color: white;
   padding: 2rem 3rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 form h2 {
@@ -153,6 +155,15 @@ button[type="submit"] {
   border-radius: 8px;
   border: 0;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  opacity: 90%;
+}
+
+button:focus {
+    opacity: 75%;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .sign-up > p {
