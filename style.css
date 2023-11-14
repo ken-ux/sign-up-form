@@ -112,6 +112,7 @@ input {
   font-size: 16px;
   border: 1px solid #e5e7eb;
   padding: 5px;
+  border-radius: 5px;
 }
 
 input:invalid {
@@ -121,6 +122,21 @@ input:invalid {
 
 input:focus {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+  position: relative;
+}
+
+.error span {
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+  color: red;
+}
+
+.error span::before {
+  content: "* Passwords do not match";
 }
 
 button[type="submit"] {
